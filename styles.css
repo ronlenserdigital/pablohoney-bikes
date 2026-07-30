@@ -237,3 +237,11 @@ footer .follow{margin-top:40px;font-weight:700;font-size:27px}
 .rating .count{font-size:13px;color:#8a8a94}
 .build-item .review-link{display:inline-block;margin-top:12px;color:var(--blue);font-weight:600;font-size:14px;letter-spacing:.06em;text-transform:uppercase}
 .build-item .review-link:hover{text-decoration:underline}
+
+/* ===== homepage action band (racers photo) ===== */
+.action-band{position:relative;height:clamp(240px,38vw,440px);overflow:hidden}
+.action-band .ph{position:absolute;inset:0;width:100%;height:100%;border:none}
+.action-band::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,20,30,.5),rgba(20,20,30,.15))}
+.action-cap{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;
+  color:#fff;font-weight:700;font-size:clamp(24px,3.4vw,40px);text-align:center;padding:0 20px;
+  text-shadow:0 3px 16px rgba(0,0,0,.6)}
