@@ -69,16 +69,16 @@
   <section class="banner"><div class="narrow"><h1>Wheel Rebuild &amp; Repair</h1></div></section>
 
   <div class="pagebody"><div class="narrow">
-    <p>Bent rim, cracked hub, broken spokes, or a wheel that just won't stay true? Send it my way. I rebuild and repair mountain bike wheels by hand and get them rolling straight again, often for a lot less than the price of a new set.</p>
+    <p>Do you have a set of wheels that you like but that need some love? Maybe you want to upgrade spokes. Or you want to pair up some nice rims with new hubs. Perhaps you have nice hubs that need a set of new carbon rims. Whatever you need, we can do it. All with the same attention to detail and commitment to quality that we commit to with our new wheels.</p>
 
-    <h3 class="sub">What I can do</h3>
-    <ul class="svc">
-      <li>Re-tension and true a wheel that's gone out of round</li>
-      <li>Replace broken or damaged spokes</li>
-      <li>Swap a cracked or dented rim and reuse your hub</li>
-      <li>Service, rebuild or replace hubs</li>
-      <li>Full rebuild with upgraded spokes, nipples or hubs</li>
-    </ul>
+    <div class="gallery">
+      <div class="ph"><span>wheels/byo/rim-1.jpg</span></div>
+      <div class="ph"><span>wheels/byo/hub-blue.jpg</span></div>
+      <div class="ph"><span>wheels/byo/nipples-color.jpg</span></div>
+      <div class="ph"><span>wheels/byo/spokes-fan.jpg</span></div>
+      <div class="ph"><span>wheels/byo/rim-2.jpg</span></div>
+      <div class="ph"><span>wheels/byo/spokes-color.jpg</span></div>
+    </div>
 
     <form class="form-box" action="https://api.web3forms.com/submit" method="POST">
       <input type="hidden" name="access_key" value="REPLACE_WITH_WEB3FORMS_ACCESS_KEY">
@@ -87,10 +87,10 @@
       <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
 
       <div class="form-title">Wheel Rebuild &amp; Repair Request</div>
-      <div class="estimate-note">Tell me what's going on and I'll get back to you with an estimate.</div>
+      <div class="estimate-note">Fill this out and you'll get an estimate back for your rebuild or repair.</div>
 
       <div class="form-h">Contact Information</div>
-      <div class="helper">We will only use this information to contact you about your repair.</div>
+      <div class="helper">We will only use this information to contact you about your wheels.</div>
       <div class="field"><label class="q">Full Name <span class="req">*</span></label><input type="text" name="Full Name" required></div>
       <div class="field"><label class="q">Email address <span class="req">*</span></label><input type="email" name="Email" required></div>
       <div class="field"><label class="q">Phone Number <span class="req">*</span></label><input type="tel" name="Phone" placeholder="555-555-5555" required></div>
@@ -102,12 +102,46 @@
         </div>
       </div>
 
-      <div class="form-h">The Wheel</div>
-      <div class="field"><label class="q">Wheel size</label>
-        <select name="Wheel size"><option value="" disabled selected>Choose one</option>
-          <option>29</option><option>27.5</option><option>26</option><option>Not sure</option></select></div>
-      <div class="field"><label class="q">What's going on with the wheel? <span class="req">*</span></label>
-        <textarea name="Issue" required placeholder="e.g. rear wheel is out of true and clicking, think a spoke is loose"></textarea></div>
+      <div class="form-h">Your Wheels</div>
+
+      <div class="field"><label class="q">Rims</label>
+        <select name="Rims"><option selected>No choice</option>
+          <option>I have my own rims</option>
+          <option>I want new rims</option></select></div>
+      <div class="field"><label class="q">What brand rims I have/want</label><input type="text" name="Rim brand"></div>
+
+      <div class="field"><label class="q">Hubs</label>
+        <select name="Hubs"><option selected>No choice</option>
+          <option>I have my own hubs</option>
+          <option>I want new hubs</option></select></div>
+      <div class="field"><label class="q">What brand hubs I have/want</label><input type="text" name="Hub brand"></div>
+
+      <div class="field"><label class="q">Rim size</label>
+        <select name="Rim size"><option selected>No choice</option>
+          <option>I have/want 29" rims</option>
+          <option>I have/want 27.5" rims</option></select></div>
+
+      <div class="field"><label class="q">Hub spacing front</label>
+        <select name="Hub spacing front"><option selected>No choice</option>
+          <option>I have/want 12x100</option>
+          <option>I have/want 15x100</option>
+          <option>I have/want 15x110 boost</option></select></div>
+
+      <div class="field"><label class="q">Hub spacing rear</label>
+        <select name="Hub spacing rear"><option selected>No choice</option>
+          <option>I have/want 12x142</option>
+          <option>I have/want 15x148 boost</option>
+          <option>I have/want 15x157 super boost</option></select></div>
+
+      <div class="field"><label class="q">Other hub options</label>
+        <select name="Other hub options"><option selected>No choice</option>
+          <option>I have/want ISO 6 bolt</option>
+          <option>I have/want Centerlock</option>
+          <option>I have/want Shimano HG</option>
+          <option>I have/want SRAM XD/XDR</option>
+          <option>I have/want Shimano Microspline</option></select></div>
+
+      <div class="field"><label class="q">Please enter any other notes on your rebuild/repair here:</label><textarea name="Notes"></textarea></div>
 
       <div class="disc-strong">By selecting "submit", You are agreeing only to receive a call, text or email regarding your request.</div>
       <div class="disc">We do not do anything with your data except use it to contact you for your project.</div>
