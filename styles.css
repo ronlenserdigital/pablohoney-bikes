@@ -215,3 +215,25 @@ footer .follow{margin-top:40px;font-weight:700;font-size:27px}
   color:var(--navy);font-size:15px;margin:4px 0 20px}
 .svc{margin:6px 0 22px 20px}
 .svc li{font-size:17px;margin-bottom:7px}
+
+/* ===== SOLD stamp on used-bike listings ===== */
+.listing .ph{position:relative}
+.sold-stamp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  background:rgba(15,20,30,.5);z-index:2}
+.sold-stamp b{color:#fff;background:#c62b2b;border:3px solid #fff;border-radius:5px;
+  padding:8px 30px;font-size:clamp(26px,6vw,50px);font-weight:700;letter-spacing:.14em;
+  transform:rotate(-8deg);box-shadow:0 8px 22px rgba(0,0,0,.45)}
+
+/* ===== builds gallery (reviews concept) ===== */
+.builds-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px;margin-top:30px}
+.build-item{background:#fff;border:1px solid var(--line);box-shadow:7px 7px 0 rgba(0,0,0,.06);overflow:hidden}
+.build-item .ph{width:100%;aspect-ratio:4/3}
+.build-item .bi{padding:20px}
+.build-item h3{font-family:inherit;font-weight:600;font-size:20px;color:var(--navy);margin-bottom:6px}
+.build-item p{font-size:15px;color:var(--navy-soft);margin-bottom:14px}
+.rating{display:flex;align-items:center;gap:10px;border-top:1px solid #eee;padding-top:12px}
+.stars{color:#e6a12a;font-size:17px;letter-spacing:2px}
+.stars .empty{color:#d7d3ca}
+.rating .count{font-size:13px;color:#8a8a94}
+.build-item .review-link{display:inline-block;margin-top:12px;color:var(--blue);font-weight:600;font-size:14px;letter-spacing:.06em;text-transform:uppercase}
+.build-item .review-link:hover{text-decoration:underline}
