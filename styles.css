@@ -245,3 +245,8 @@ footer .follow{margin-top:40px;font-weight:700;font-size:27px}
 .action-cap{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;
   color:#fff;font-weight:700;font-size:clamp(24px,3.4vw,40px);text-align:center;padding:0 20px;
   text-shadow:0 3px 16px rgba(0,0,0,.6)}
+
+/* ===== lead-time callout on wheel build pages ===== */
+.leadtime{background:#f3efe6;border-left:4px solid var(--blue);padding:13px 16px;border-radius:4px;
+  color:var(--navy);font-size:15px;line-height:1.5;margin:0 0 24px}
+.leadtime strong{color:var(--navy);font-weight:700}
